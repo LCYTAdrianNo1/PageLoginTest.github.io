@@ -1,64 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta es una pagina de prueba que estoy haciendo para entregar una actividad
-    de la universidad en este caso es un diseño de login">
-    <meta name="keywords" content="login,prueba,inicarsesion">
-    <meta name="author" content="LCYTAdrianNo1">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/Styles.css">
-    <link rel="stylesheet" href="CSS/Reloj.css">
-</head>
-<body>
-
-<header class="bg-dark text-white">
-    <!-- Contenido del header -->
-    Bienvenido
-</header>
-
-<div class="card-container">
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-    <div class="container">
-        <div class="log-card">
-            <p class="heading">Iniciar sesión</p>
-            <p>Bienvenido de vuelta </p>
-
-            <div class="input-group">
-                <p class="text">Nombre de usuario</p>
-                <input class="input" type="username" placeholder="Por ejemplo: LCYTAdrianNo1">
-                <p class="text">Contraseña</p>
-                <input class="input" type="password" placeholder="Escriba su contraseña">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Esta es una pagina de prueba que estoy haciendo para entregar una actividad
+         de la universidad en este caso es un diseño de login">
+      <meta name="keywords" content="login,prueba,inicarsesion">
+      <meta name="author" content="LCYTAdrianNo1">
+      <title>Login Page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="CSS/Styles.css">
+      <link rel="stylesheet" href="CSS/Reloj.css">
+   </head>
+   <body>
+      <header class="bg-dark text-white">
+         <!-- Contenido del header -->
+         Bienvenido
+      </header>
+      <div class="card-container">
+         <div class="circle1"></div>
+         <div class="circle2"></div>
+         <div class="container">
+            <div class="log-card">
+               <p class="heading">Iniciar sesión</p>
+               <p>Bienvenido de vuelta </p>
+               <div class="input-group">
+                  <p class="text">Nombre de usuario</p>
+                  <input id="username" class="input" type="username" placeholder="Por ejemplo: LCYTAdrianNo1">
+                  <p class="text">Contraseña</p>
+                  <input id="password" class="input" type="password" placeholder="Escriba su contraseña">
+               </div>
+               <div class="password-group">
+                  <div class="checkbox-group">
+                     <input type="checkbox">
+                     <label class="label">Remember Me</label>
+                  </div>
+                  <!-- <a href="" class="forget-password">Forget Password</a> -->
+               </div>
+               <button id="signInBtn" class="btn btn-primary">Sign In</button>
+               <!-- <p class="no-account">Don't Have an Account ?<a class="link"> Sign Up</a></p> -->
             </div>
-
-            <div class="password-group">
-                <div class="checkbox-group">
-                    <input type="checkbox">
-                    <label class="label">Remember Me</label>
-                </div>
-                    <!-- <a href="" class="forget-password">Forget Password</a> -->
-            </div>
-
-            <button class="btn btn-primary">Sign In</button>
-
-            <!-- <p class="no-account">Don't Have an Account ?<a class="link"> Sign Up</a></p> -->
-        </div>
-    </div>
-</div>
-
-<footer class="bg-dark text-white">
-LCYTAdrianNo1
-<div id="clock"></div>
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="JS/Reloj.js"></script>
-
-
-</body>
+         </div>
+      </div>
+      <footer class="bg-dark text-white">
+         LCYTAdrianNo1
+         <div id="clock"></div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="JS/Reloj.js"></script>
+      <script src="JS/Validar.js"></script>
+   </body>
 </html>
